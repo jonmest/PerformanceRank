@@ -1,6 +1,5 @@
 import numpy as np
 from numba import njit
-import pandas as pd
 import vectorbtpro as vbt
 
 

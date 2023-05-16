@@ -1,4 +1,5 @@
 from rank import rank_performances, get_pct_change, active_per_row, momentum_rank
+import pandas as pd
 
 def test_pct_change():
     df = pd.DataFrame({'AAPL': [1, 2, 4, 8, 16], 'GME': [16, 8, 4, 2, 1]})
